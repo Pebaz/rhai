@@ -51,6 +51,7 @@ no_std = [ "smallvec/union", "num-traits/libm", "hashbrown", "core-error", "libm
 # compiling for WASM
 wasm-bindgen = [ "instant/wasm-bindgen" ]
 stdweb = [ "instant/stdweb" ]
+now = [ "instant/now" ]
 
 [profile.release]
 lto = "fat"
